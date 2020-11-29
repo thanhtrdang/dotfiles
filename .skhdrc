@@ -1,0 +1,23 @@
+# Move Window
+hyper - 0x04 : osascript -e "tell application \"System Events\" to keystroke \"y\" using {command down, control down, option down, shift down}" && yabai -m window --space 1
+hyper - 0x26 : osascript -e "tell application \"System Events\" to keystroke \"u\" using {command down, control down, option down, shift down}" && yabai -m window --space 2
+hyper - 0x28 : osascript -e "tell application \"System Events\" to keystroke \"i\" using {command down, control down, option down, shift down}" && yabai -m window --space 3
+hyper - 0x25 : osascript -e "tell application \"System Events\" to keystroke \"o\" using {command down, control down, option down, shift down}" && yabai -m window --space 4
+
+# --grid <rows>:<cols>:<start-x>:<start-y>:<width>:<height>
+
+# left-50 (;) / right-50 (') / full (enter)
+hyper - 0x29 : yabai -m window --grid 1:2:0:0:1:1
+hyper - 0x27 : yabai -m window --grid 1:2:1:0:1:1
+hyper - 0x24 : yabai -m window --grid 1:1:0:0:1:1
+
+# center-67 (p) / left-67 ([) / right-67 (]) / zen (\)
+hyper - 0x23 : yabai -m window --grid 1:6:1:0:4:1
+hyper - 0x21 : yabai -m window --grid 1:3:0:0:2:1
+hyper - 0x1E : yabai -m window --grid 1:3:1:0:2:1
+hyper - 0x2A : yabai -m window --toggle native-fullscreen
+
+# left-33 (-) / right-33 (=) / center-50 (delete_or_backspace)
+hyper - 0x1B : yabai -m window --grid 1:3:0:0:1:1
+hyper - 0x18 : yabai -m window --grid 1:3:2:0:1:1
+hyper - 0x33 : yabai -m window --grid 1:4:1:0:2:1
