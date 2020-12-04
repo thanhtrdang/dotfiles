@@ -119,4 +119,12 @@ function switch_desktop() {
 
     osascript -e "tell application \"System Events\" to keystroke \"$keystroke\" using {command down, control down, option down, shift down}"
 }
+
+# Alias
 alias switch_desktop=switch_desktop
+
+alias d755="fd -t d -x chmod 755"
+alias f644="fd -t f -x chmod 644"
+
+alias mpa="mpv -no-video"
+alias mps="mpv -no-video --shuffle"
