@@ -98,6 +98,12 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+# Haskell
+export PATH="~/.local/bin:$PATH"
+# autoload -U +X compinit && compinit
+autoload -U +X bashcompinit && bashcompinit
+eval "$(stack --bash-completion-script stack)"
+
 # Java
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/openjdk-11.jdk/Contents/Home
 
@@ -128,3 +134,7 @@ alias f644="fd -t f -x chmod 644"
 
 alias mpa="mpv -no-video"
 alias mps="mpv -no-video --shuffle"
+
+alias dl=aria2c
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
