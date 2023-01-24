@@ -1,62 +1,77 @@
-# Checklist
+# dotfiles
+
+## Checklist
 
 > oh my zsh
 >
-> xTerm: Firacode / Natural keymap / Dracula theme 
+> xTerm: Firacode / Natural keymap / Dracula theme
 >
-> brew
+> brew (<https://github.com/Lissy93/Brewfile>)
 >
 > skhd / yabai (config keyboard shortcuts for Desktop Switching as well)
 >
 > karabiner (~/.config/karabiner)
 
-# Awesome command line
+## Awesome command line
+>
 > tldr / bat / rg /  fzf
-> 
+>
 > youtube-dl / mpv
-> 
+>
 > httpie
 
-# Vim / nvim
+## Vim / nvim
 
-# Java
+## Java
+>
 > java / mvn / gradle
-> 
+>
 > scala / sbt / mill
 
-# JS
+## JS
+>
 > node / npm
 
-# Python
+## Python
+>
 > anaconda
 
-# Haskell
+## Haskell
+>
 > stack
 >
 > .ghc: prompt / pretty print
 
-# Rust
+## Rust
 >
 
-# IDE
-> VSC 
-> 
-> Intellij 
-> 
+## IDE
+>
+> VSC
+>
+> Intellij
+>
 > Pycharm
 
-# Docker / Kubernetes
+## Docker / Kubernetes / Podman
 >
 
-# Browser Edge
+## Browser Edge
+>
 > Export / Import
-> 
+>
 > Sync by using Microsoft account
 
-# Backup / Copy
+## Backup / Copy
+>
 > Ebooks
-> 
+>
 > Workspaces
-> 
+>
 > Music
-> 
+>
+
+## Ref
+>
+> <https://dev.to/lissy93/cli-tools-you-cant-live-without-57f6?fbclid=IwAR2WNQAnLY8LHiNg1cxXzVB11sJRF1tOTG4mGrhqUWjc4yC941mS1fie4aU>
+>
